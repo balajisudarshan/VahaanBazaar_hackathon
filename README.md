@@ -1,4 +1,4 @@
-# Vahan Bazar – Two-Wheeler Marketplace Web App
+# Vahan Bazar Hackathon
 
 Vahan Bazar is a full-stack web platform for browsing, comparing, and buying/selling two-wheelers.  
 It also provides dealerships with inventory management and sales tracking tools.
