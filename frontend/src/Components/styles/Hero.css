@@ -1,0 +1,96 @@
+
+.hero {
+    background: var(--primary-bg-gradient);
+    padding: var(--hero-padding);
+}
+
+.heroContainer {
+    width: 100%;
+    margin: 0 auto;
+    color: var(--text-color);
+    padding: var(--container-padding);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-medium);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    color: var(--subtext-color);
+    margin: 0;
+}
+
+.hero-search {
+    background-color: var(--filter-bg);
+    padding: var(--filter-padding);
+    border-radius: var(--filter-radius);
+    width: 100%;
+    max-width: 800px;
+}
+
+.search-filters {
+    display: flex;
+    gap: var(--gap-large);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-control {
+    display: block;
+    width: 900px;
+    padding: 12px 40px 12px 16px; /* extra right padding for arrow */
+    font-size: var(--filter-font-size);
+    background-color: var(--filter-bg);
+    color: var(--text-color);
+    border: none;
+    border-radius: var(--filter-radius);
+    text-align: start;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    appearance: none; /* removes default arrow for better spacing */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%227%22%20viewBox%3D%220%200%2010%207%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%207%205-7H0z%22%20fill%3D%22white%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center; /* adjust arrow position */
+    background-size: 10px 7px;
+}
+
+.form-control:hover {
+    background-color: rgba(56, 55, 55, 0.7);
+}
+
+.form-control option {
+    background-color: var(--filter-bg);
+    color: var(--text-color);
+}
+.search {
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 200px;
+    background-color: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    color: var(--accent-color);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search:hover {
+    background-color: var(--accent-color);
+    color: var(--accent-text);
+    transform: translateY(-2px);
+}
+
+.search:active {
+    transform: translateY(0);
+}
