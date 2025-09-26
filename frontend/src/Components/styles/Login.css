@@ -1,0 +1,115 @@
+/* Container */
+.loginContainer {
+  background-color: #F5F5F5; /* soft gray */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form card */
+.loginContainer > form {
+  background-color: #ffffff; /* white card */
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.loginContainer > form:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.loginContainer h1 {
+  color: #E63946; /* racing red */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.loginContainer .subTitle {
+  color: #1D1D1D; /* jet black */
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+/* Row */
+.loginContainer .row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Labels */
+.loginContainer label {
+  color: #1D1D1D; /* jet black */
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+.loginContainer input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #00B4D8; /* cyan blue */
+  outline: none;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.loginContainer input:focus {
+  border-color: #E63946; /* racing red focus */
+}
+
+/* Button */
+.loginContainer button {
+  background-color: #E63946; /* racing red */
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.loginContainer button:hover {
+  background-color: #C62839; /* darker red */
+  transform: translateY(-2px);
+}
+
+/* Footer text */
+.loginContainer .footerText {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #1D1D1D;
+}
+
+.loginContainer .footerText .link {
+  color: #00B4D8; /* cyan blue */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginContainer .footerText .link:hover {
+  text-decoration: underline;
+}
+@media (max-wdith:750px) {
+    .loginContainer>form{
+        width: 10%;
+        padding: 50px 20px;
+    }
+}
+/* Responsive */
+@media (max-width: 450px) {
+  .loginContainer > form {
+    width: 90%;
+    padding: 40px 20px;
+  }
+}
