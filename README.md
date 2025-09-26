@@ -1,67 +1,151 @@
-# Vahan Bazar – Two-Wheeler Marketplace Web App
+Vahan Bazar – India’s Two-Wheeler Marketplace
+Problem Statement
 
-## 📌 Problem Statement
-Many users face difficulty in finding, comparing, and renting/buying two-wheelers online efficiently.  
-Dealerships also struggle with inventory management and tracking sales.  
+India is the largest two-wheeler market in the world with 15–17 million annual sales.
+But the digital experience is broken for both buyers and dealers:
 
-Vahan Bazar aims to provide a **centralized platform** where users can browse, compare, and buy/sell two-wheelers, while dealerships can manage inventory and sales digitally.
+Buyers face challenges:
 
----
+Listings are scattered across OLX, Quikr, BikeDekho.
 
-## 📝 Project Summary
+No transparent brand comparisons.
 
-### Problem Understanding
-The Indian two-wheeler market is huge, but finding, comparing, and buying bikes, scooters, and EVs online is fragmented.  
-Existing platforms either focus on four-wheelers or lack dealership-friendly tools. Customers struggle with transparent pricing and easy booking.  
+No local test ride booking or real-time EMI/fuel cost tools.
 
-### Proposed Prototype Solution
-- Customers can **browse, filter, and compare models** by brand, fuel type, and price.  
-- Rich product pages with **images, detailed specs, EMI & fuel calculators**.  
-- Sections for **upcoming launches, showrooms, and test ride bookings**.  
-- Users can **sell used bikes** with a simple upload process.  
-- Dealerships get a **backend dashboard** to manage inventory, sales, and analytics.  
+Dealers face challenges:
 
-### Uniqueness & Impact
-- Focused exclusively on **2-wheelers**, unlike Cars24 or OLX.  
-- Dual focus: **Customer-friendly marketplace** + **Dealer-friendly inventory management**.  
-- Makes buying/selling **transparent, digital, and faster**, helping customers save time & money, while enabling dealerships to grow revenue.  
+Manual inventory tracking (paper/excel).
 
----
+No analytics or sales insights.
 
-## 📝 Proposal & Prototype Plan
+Limited online presence in Tier-2 & Tier-3 cities, where demand is growing.
 
-1. **Requirement Gathering:** Understand the needs of users and dealerships.  
-2. **UI/UX Design:** Create a responsive prototype for the frontend.  
-3. **Backend API Design:** Build APIs for authentication, vehicle listings, booking, and dealer dashboards.  
-4. **Frontend Integration:** Connect frontend with backend APIs.  
-5. **Testing & Deployment:** Test all features and deploy frontend and backend separately.
+Vahan Bazar solves this by centralizing discovery, decision-making, and dealership into one trusted platform.
 
----
+Market Understanding
 
-## 🌟 Features (MVP)
-- Browse + Filter 2-wheelers (brand, price, fuel type)  
-- Side-by-side Vehicle Comparisons  
-- EMI & Fuel Cost Calculators  
-- Upcoming Launches Section  
-- Dealer Showroom Listings  
-- Test Ride Booking System  
-- Used Bike Sell/Buy Portal  
-- Dealer Inventory Management  
+80% of Indian households own a two-wheeler, yet online solutions are fragmented.
 
----
+Buyers want finance clarity (EMI, running costs) before purchase.
 
-## 🛠️ Tech Stack
-- **Frontend:** React + Tailwind CSS  
-- **Backend:** Node.js + Express.js  
-- **Database:** MongoDB / PostgreSQL  
-- **Version Control:** GitHub with project branch  
-- **Deployment:** Vercel (frontend), Render (backend)  
+EV adoption (~7% of sales in 2024) increases demand for range and charging cost tools.
 
----
+Dealers are underserved, while digital-first startups in 4-wheelers (e.g., Cars24) dominate.
 
-## 👥 Contribution Details
-- **Anthati Sai Samslesh:** Team Lead, Backend API design, database schema  
-- **Kondreddy Balaji Sudarshan Reddy:** Frontend UI development, React components, integration  
-- **Gadiparthi Venkata Eswar Kumar:** Deployment, testing  
-- **Boggavarapu Manoj Kumar:** Documentation, project planning  
+Solution – Vahan Bazar
 
+A digital marketplace designed for India’s two-wheeler ecosystem (petrol and EV).
+
+For Buyers:
+
+Browse and filter by brand, price, fuel type.
+
+Specs, EMI, and fuel cost calculators in ₹.
+
+Compare bikes across brands.
+
+Track upcoming launches.
+
+Book test rides at nearby dealerships.
+
+Sell used bikes with verified RC upload.
+
+For Dealers:
+
+Digital inventory management.
+
+Leads, bookings, and sales tracking.
+
+Analytics on top-selling models.
+
+Expanded customer reach in Tier-2 & Tier-3 cities.
+
+Why Vahan Bazar is Unique
+
+Specialized for India’s two-wheeler market – no Cars24 equivalent exists here.
+
+Dual focus – Buyer-friendly marketplace + Dealer tools.
+
+EV ready – Charging cost calculator, battery range predictor.
+
+Built on trust – Verified dealers (GSTIN/RTO), KYC-verified sellers.
+
+Scalable – Designed for both metro and non-metro regions.
+
+MVP Features
+
+Browse and filter bikes/scooters
+
+Side-by-side comparisons
+
+EMI & fuel cost calculators
+
+Upcoming launches
+
+Dealer showroom listings
+
+Test ride booking
+
+Used bike portal
+
+Dealer inventory dashboard
+
+Tech Stack
+
+Frontend: React + Tailwind CSS (mobile-first, bilingual)
+
+Backend: Node.js + Express.js
+
+Database: MongoDB / PostgreSQL
+
+Deployment: Vercel (frontend), Render (backend)
+
+Scaling: AWS/GCP India for Tier-2 expansion
+
+System Architecture
+
+User Roles:
+
+Buyer → Compare, book rides, explore in Hindi/English.
+
+Dealer → Manage inventory, view sales analytics.
+
+Admin → Verify dealers (GSTIN, RTO integration).
+
+Database Entities:
+
+Vehicle { brand, model, priceINR, fuelType, specs, dealerId }
+
+Booking { userId, dealerId, vehicleId, date, status }
+
+Dealer { dealerId, GSTIN, name, city, inventory[] }
+
+Impact
+
+For Buyers:
+
+Faster, informed decisions (comparison + EMI).
+
+Save up to ₹12,000/year with fuel vs EV insights.
+
+For Dealers:
+
+Faster sales closure in Tier-2 cities.
+
+Increased test ride bookings and visibility.
+
+Marketplace Goals:
+
+Onboard 50+ dealers in Andhra/Telangana pilot.
+
+Enable 5,000+ test rides in Year 1.
+
+Team Contributions
+
+Anthati Sai Samslesh: Team Lead, Documentation, Planning
+
+Kondreddy Balaji Sudarshan Reddy: Frontend Development
+
+Gadiparthi Venkata Eswar Kumar: Deployment & Mobile Testing
+
+Boggavarapu Manoj Kumar: Backend APIs & Dealer Dashboard
