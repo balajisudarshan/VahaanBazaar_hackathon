@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles/NavBar.css";
-
+import { Link } from "react-router-dom";
 const NavBar = () => {
   const [open, setOpen] = useState(false);
 
@@ -12,8 +12,9 @@ const NavBar = () => {
         </div>
         <div className={`links ${open ? "active" : ""}`}>
           <ul>
+            <Link to='/'><li>Home</li></Link>
             <li>Features</li>
-            <li>Bikes</li>
+            <Link to='/allVehicles'><li>Bikes</li></Link>
             <li>Contact</li>
             <li>Login</li>
           </ul>
