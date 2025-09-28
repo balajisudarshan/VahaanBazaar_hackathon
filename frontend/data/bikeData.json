@@ -1,0 +1,180 @@
+[
+  {
+    "img": "https://images.tractorjunction.com/1_YZF_R1_M_75f660d0cf.png?format=webp&quality=40",
+    "title": "Yamaha R1M",
+    "company": "YAMAHA",
+    "price": "$30L - 40L",
+    "cc": "998cc",
+    "mileage": "20kmpl",
+    "type": "PETROL",
+    "tags":[
+      "New Model",
+      "Offer"
+    ]
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2vbBRaN-Eq4LTj9YZMiQruvMl52w3X0Eng&s",
+    "title": "KTM SUPER DUKE",
+    "company": "KTM",
+    "price": "$20L - 24L",
+    "cc": "1200cc",
+    "mileage": "10kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://media.newindianexpress.com/newindianexpress%2F2024-10-17%2Fqglos9rl%2FE-haw.jpg?w=640&auto=format%2Ccompress",
+    "title": "ULTRAVIOLET F77",
+    "company": "ULTRAVIOLET",
+    "price": "$3L - 4L",
+    "mileage": "100km",
+    "type": "EV"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/1056x594/n/th7s8fb_1819635.jpg?q=80",
+    "title": "Ducati Panigale V4",
+    "company": "DUCATI",
+    "price": "$27L - 30L",
+    "cc": "1103cc",
+    "mileage": "15kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtI4MH0ixbVYXg5kKphVFVUT9OXy5LAV-Wg&s",
+    "title": "Honda CBR1000RR-R",
+    "company": "HONDA",
+    "price": "$23L - 25L",
+    "cc": "1000cc",
+    "mileage": "17kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZpRS1G84r3ZxnVkyTGFlTnL_GIJJE8jAdRg&s",
+    "title": "BMW S1000RR",
+    "company": "BMW",
+    "price": "$22L - 24L",
+    "cc": "999cc",
+    "mileage": "16kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://bd.gaadicdn.com/processedimages/royal-enfield/classic-350/source/classic-350.jpg",
+    "title": "Royal Enfield Classic 350",
+    "company": "ROYAL ENFIELD",
+    "price": "$2L - 2.5L",
+    "cc": "349cc",
+    "mileage": "35kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://bd.gaadicdn.com/processedimages/bajaj/dominar-400/source/dominar-400.jpg",
+    "title": "Bajaj Dominar 400",
+    "company": "BAJAJ",
+    "price": "$2.3L - 2.6L",
+    "cc": "373cc",
+    "mileage": "28kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://bd.gaadicdn.com/processedimages/tvs/apache-rr-310/source/apache-rr-310.jpg",
+    "title": "TVS Apache RR310",
+    "company": "TVS",
+    "price": "$2.7L - 3L",
+    "cc": "312cc",
+    "mileage": "30kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/45139/ola-electric-s1-right-front-three-quarter0.jpeg",
+    "title": "Ola S1 Pro",
+    "company": "OLA",
+    "price": "$1.3L - 1.5L",
+    "mileage": "180km",
+    "type": "EV"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/47035/ather-450x-right-front-three-quarter0.jpeg",
+    "title": "Ather 450X",
+    "company": "ATHER",
+    "price": "$1.2L - 1.4L",
+    "mileage": "146km",
+    "type": "EV"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/1280x720/n/l5fbvfb_1835167.jpg?q=100",
+    "title": "TVS iQube",
+    "company": "TVS",
+    "price": "$1L - 1.2L",
+    "mileage": "100km",
+    "type": "EV"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRhhBI9p5a8sF0ibJ2NbctqfkB2mWHhnVSZA&s",
+    "title": "Suzuki GSX-S1000",
+    "company": "SUZUKI",
+    "price": "$12L - 14L",
+    "cc": "999cc",
+    "mileage": "16kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard1757579629039.jpg?q=80",
+    "title": "Kawasaki Ninja ZX-10R",
+    "company": "KAWASAKI",
+    "price": "$16L - 18L",
+    "cc": "998cc",
+    "mileage": "15kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://cdn.bikedekho.com/processedimages/harley-davidson/sportster-s/source/sportster-s685ba9bcd3d9d.jpg?imwidth=412&impolicy=resize",
+    "title": "Harley Davidson Sportster S",
+    "company": "HARLEY DAVIDSON",
+    "price": "$15L - 17L",
+    "cc": "1250cc",
+    "mileage": "20kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://img.autocarindia.com/ExtraImages/20220907035916_FTR%20recall.jpg?w=700&c=1",
+    "title": "Indian FTR 1200",
+    "company": "INDIAN",
+    "price": "$16L - 20L",
+    "cc": "1203cc",
+    "mileage": "14kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/664x374/n/bw/models/colors/kawasaki-select-model-mirror-coated-matte-spark-black-1676442407791.png?q=80",
+    "title": "Kawasaki Ninja H2R",
+    "company": "KAWASAKI",
+    "price": "$79L - 80L",
+    "cc": "998cc Supercharged",
+    "mileage": "10kmpl",
+    "type": "PETROL"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFYCIyXLihupT-ry5qUvECPqRLSko_Yn5rA&s",
+    "title": "Energica Ego",
+    "company": "ENERGICA",
+    "price": "$25L - 30L",
+    "mileage": "200km",
+    "type": "EV"
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05r0Yh3-4-3_-SF3deqSv70GQi-090UZ_Ag&s",
+    "title": "Zero SR/F",
+    "company": "ZERO",
+    "price": "$20L - 22L",
+    "mileage": "250km",
+    "type": "EV"
+  },
+  {
+    "img": "https://imgd.aeplcdn.com/1056x594/n/cm57ofb_1825673.jpg?q=80",
+    "title": "Hero Karizma XMR",
+    "company": "HERO",
+    "price": "$1.8L - 2L",
+    "cc": "210cc",
+    "mileage": "32kmpl",
+    "type": "PETROL"
+  }
+]
